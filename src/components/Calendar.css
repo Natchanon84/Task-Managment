@@ -1,0 +1,31 @@
+.calendar-container {
+  margin-top: 3rem;
+  background-color: rgb(74,99,130);
+  width: auto;
+  height: 100%;
+
+  border-radius: 0.5rem;
+}
+
+.calendar-container h2 {
+  text-align: center;
+}
+
+.today {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.select-day {
+  text-align: center;
+  /* border: 1px solid red; */
+  font-size: 1.3rem;
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+}
+.digital-clock {
+  background-color: rgb(74, 99, 130);
+  color: rgb(255, 255, 255);
+  border-radius: 1rem;
+  padding: 1rem;
+  text-align: center;
+}

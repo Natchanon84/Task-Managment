@@ -1,0 +1,30 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0  2rem;
+}
+.container {
+  background-color: rgb(74,99,130);
+  padding: 1rem;
+  margin: 3rem auto;
+  max-width: 60vw;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  /* box-shadow: rgb(205,212,218) 0px 5px 25px; */
+}
+
+.itemTask-container {
+  /* border: 1px solid blue; */
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 1rem 1.9rem;
+  padding: 0;
+}
